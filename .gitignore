@@ -1,0 +1,31 @@
+# Data repository
+# Ignores all data files
+data/**
+# Git will continue to monitor for additional negations in subdirectories
+!data/**/
+
+# Environment file
+# .env
+
+# Compiled Python
+*.pyc
+
+# Editable installs
+*.egg-info
+
+# Jupyter Notebook Checkpoints
+*.ipynb_checkpoints/
+*-checkpoint.ipynb
+*-checkpoint.py
+
+# Temporary Office files
+*~$*
+
+# MacOS Files
+.DS_Store
+
+# Gitkeeps
+!.gitkeep
+
+# Log files
+*.log

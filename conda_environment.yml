@@ -1,0 +1,82 @@
+name: POC
+channels:
+  - conda-forge
+
+dependencies:
+  # Conda
+  - conda-lock
+  # Python
+  - python=3.11
+  - wheel
+  # Jupyter
+  - ipykernel
+  - jupyterlab
+  - jupytext
+  - notebook
+  # Spark
+  - openjdk=17
+  - pyspark=3.5.3
+  # Databases
+  - elasticsearch
+  - kombu # RabitMQ
+  - psycopg2 # Postgres
+  - py2neo # Neo4j
+  - pymongo # MongoDB
+  - pymysql # MySQL
+  - redis-py # Redis Python Library
+  # Python Linters
+  # - autopep8 # Alternative to Black
+  - black
+  - isort
+  - mypy
+  - pandas-stubs # Better linting for Pandas
+  - ruff
+  # ETL Pipelines
+  - kedro
+  - kedro-datasets
+  - luigi
+  # Data Manipulation
+  - dask
+  - numpy
+  - openpyxl # Support Excel files
+  - pandas
+  - polars
+  - pyarrow
+  # Data Analysis
+  - bambi
+  - scikit-learn
+  - scikit-image
+  - scipy
+  - statsmodels
+  # Data Visualization
+  - matplotlib
+  - plotly
+  - seaborn
+  # Data Parsing
+  - beautifulsoup4
+  - cryptography
+  - python-dateutil
+  - pyyaml
+  # Testing
+  - pytest
+  - pytest-cov
+  # Neural Networks
+  - keras
+  # NLP
+  - nltk
+  - spacy
+  # Cloud
+  - boto3
+  # Web
+  - flask
+  - requests
+  - streamlit
+  - urllib3
+  # Documentation
+  - mkdocs
+  - pdoc
+  # Pip Packages
+  - pip
+  - pip:
+    - delta-spark==3.3.1 # Compatible Delta Table Version
+ 
