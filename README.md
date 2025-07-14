@@ -1,5 +1,34 @@
 # Python Project Boiler Plate V2
 
+## Useful Settings
+
+Change the default terminal when opened
+
+```
+Terminal: Select Default Profile
+```
+
+Select the python interpreter
+
+```
+Python: Select Interpreter
+```
+
+Add a conda activated terminal profile
+
+```
+Preferences: Open User Settings (JSON)
+```
+
+Example profile
+
+```
+"Command Prompt (POC)": {
+    "path": "C:\\WINDOWS\\System32\\cmd.exe",
+    "args": ["/k", "conda activate POC"]
+}
+```
+
 ## Useful Conda Commands
 
 List Conda environments
