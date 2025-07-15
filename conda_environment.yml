@@ -21,6 +21,7 @@ dependencies:
   - kombu # RabitMQ
   - psycopg2 # Postgres
   - py2neo # Neo4j
+  - pyiceberg[sql-postgres,sql-sqlite,pyarrow,pandas,duckdb,polars,s3fs,adlfs,gcsfs]
   - pymongo # MongoDB
   - pymysql # MySQL
   - redis-py # Redis Python Library
@@ -55,6 +56,7 @@ dependencies:
   # Data Parsing
   - beautifulsoup4
   - cryptography
+  - markdownify # HTML to Markdown
   - python-dateutil
   - pyyaml
   # Testing
