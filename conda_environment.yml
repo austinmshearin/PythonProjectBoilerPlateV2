@@ -17,14 +17,20 @@ dependencies:
   - openjdk=17
   - pyspark=3.5.3
   # Databases
+  - adlfs # Azure blob storage
+  - duckdb
   - elasticsearch
+  - gcsfs # Google cloud storage
   - kombu # RabitMQ
   - psycopg2 # Postgres
+  - psycopg2-binary
   - py2neo # Neo4j
-  - pyiceberg[sql-postgres,sql-sqlite,pyarrow,pandas,duckdb,polars,s3fs,adlfs,gcsfs]
+  - pyiceberg # Iceberg
   - pymongo # MongoDB
   - pymysql # MySQL
   - redis-py # Redis Python Library
+  - s3fs # AWS S3
+  - sqlalchemy
   # Python Linters
   # - autopep8 # Alternative to Black
   - black
