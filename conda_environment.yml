@@ -10,9 +10,9 @@ dependencies:
   - wheel
   # Jupyter
   - ipykernel
-  - jupyterlab
+  - jupyterlab=4.0.7
   - jupytext
-  - notebook
+  - notebook=7.0.6
   # Spark
   - openjdk=17
   - pyspark=3.5.3
