@@ -28,6 +28,7 @@ dependencies:
   - pyiceberg # Iceberg
   - pymongo # MongoDB
   - pymysql # MySQL
+  - pymssql # MS SQL
   - redis-py # Redis Python Library
   - s3fs # AWS S3
   - sqlalchemy
