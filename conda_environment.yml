@@ -8,6 +8,7 @@ dependencies:
   # Python
   - python=3.11
   - wheel
+  - python-dotenv
   # Jupyter
   - ipykernel
   - jupyterlab=4.0.7
