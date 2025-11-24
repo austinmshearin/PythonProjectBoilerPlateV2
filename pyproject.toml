@@ -3,18 +3,18 @@ requires = [ "setuptools",]
 build-backend = "setuptools.build_meta"
 
 [project]
+name = "etl"
 requires-python = ">=3.9"
-name = "package_name"
 readme = "README.md"
-dynamic = [ "version",]
-dependencies = [  ]
+dynamic = ["version"]
+dependencies = []
 
 [tool.setuptools.packages.find]
-where = [ "src",]
+where = ["src"]
 namespaces = false
 
 [tool.setuptools.dynamic.version]
-attr = "package_name.__version__"
+attr = "etl.__version__"
 
 [tool.black]
 line-length = 100
